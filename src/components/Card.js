@@ -14,6 +14,7 @@ const CardContain = styled.div`
 const CardBox = styled.div`
     border: 1px solid black;
     width: 50%;
+    padding: 20px 15px 20px 15px;
 `
 
 const Card = (props) => {
@@ -21,8 +22,9 @@ const Card = (props) => {
         <CardContain>
         <CardBox>
             <p>{props.title}</p>
+            <p>Stack: {props.stack}</p>
             <p>{props.description}</p>
-            <p>{props.link}</p>
+            <a target="_blank" href={props.link}>{props.link}</a>
         </CardBox>
         </CardContain>
     );

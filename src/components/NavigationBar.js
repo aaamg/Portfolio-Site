@@ -10,15 +10,16 @@ const NavigationBar = () => {
     return(
         <>
         <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/">Andrew</Navbar.Brand>
+        <Navbar.Brand href="/">{/* Name can go here or something*/}</Navbar.Brand> 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="m-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/portfolio">Porfolio</Nav.Link>
-            <Nav.Link href="/">Resume</Nav.Link>
-            <Nav.Link href="/">Github</Nav.Link>
-            <Nav.Link href="/me">About Me</Nav.Link>
+            <Nav.Link href="/projects">Small React Projects</Nav.Link>
+            {/* <Nav.Link href="/">Resume</Nav.Link> */}
+            <Nav.Link target="_blank" href="https://github.com/aaamg">Github</Nav.Link>
+            {/* <Nav.Link href="/me">About Me</Nav.Link> */}
             </Nav>
         </Navbar.Collapse>
         </Navbar>

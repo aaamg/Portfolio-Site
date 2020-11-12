@@ -6,6 +6,7 @@ import ProjectBox from '../components/ProjectBox.js'
 import NavigationBar from '../components/NavigationBar.js'
 import Main from '../components/Main.js'
 import Me from '../components/Me.js'
+import SmallProjectBox from '../components/SmallProjectBox.js'
 
 const Routes = () => {
     return(
@@ -13,6 +14,7 @@ const Routes = () => {
             <Route path="/" component={NavigationBar}/>
             <Route path="/" exact component={Main} />
             <Route path="/portfolio" exact component={ProjectBox}/>
+            <Route path="/projects" exact component={SmallProjectBox}/>
             <Route path="/me" component={Me} />
         </>
     );
