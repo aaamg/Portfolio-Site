@@ -34,7 +34,7 @@ const SmallProjectsObject = [
     {
         title: "Look up the Weather App",
         stack: "React, React Hooks, Axios",
-        description: "Open Weather API, a work in progress.",
+        description: "Open Weather API, a work in progress. Search by city, or zip code! ",
         link: "https://codesandbox.io/s/weather-app-egm7w?file=/src/App.js",
     },
     {

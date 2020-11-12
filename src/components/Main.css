@@ -1,0 +1,48 @@
+.alink {
+    color: #483D8B;
+}
+
+.alink:hover {
+    color: rgba(255, 72, 0, 0.829);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.upperBox {
+    height: 75vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.nameBox {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: .5rem;
+    /* border: 1px solid black; */
+}
+.box-1{
+    width: 87%;
+}
+
+.box0 {
+    width: 89%;
+}
+
+.box1 {
+    /* border: 1px solid red; */
+    width: 91%;
+}
+
+.box2 {
+    /* border: 1px solid blue; */
+    font-size: .6rem;
+}
+
+.box3 {
+    /* border: 1px solid green; */
+    width: 93%;
+}
