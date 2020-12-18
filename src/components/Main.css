@@ -25,16 +25,28 @@
     /* border: 1px solid black; */
 }
 .box-1{
-    width: 87%;
+    width: 70%;
+}
+
+.box-1:hover {
+    color: red;
 }
 
 .box0 {
-    width: 89%;
+    width: 75%;
+}
+
+.box0:hover {
+    color: blue;
 }
 
 .box1 {
     /* border: 1px solid red; */
-    width: 91%;
+    width: 80%;
+}
+
+.box1:hover {
+    color: green;
 }
 
 .box2 {
@@ -42,7 +54,57 @@
     font-size: .6rem;
 }
 
+.box2:hover {
+    color: orange;
+}
+
 .box3 {
     /* border: 1px solid green; */
     width: 93%;
+}
+
+.box3:hover {
+    color: blue;
+}
+
+.box4 {
+    width: 98%
+}
+
+.box4:hover {
+    color: cyan;
+}
+
+.box5 {
+    width: 49.5%;
+    margin-left: 30%;
+    /* border: 1px solid red; */
+}
+
+.box5:hover {
+    color: rgb(218, 1, 181);
+}
+
+.box6 {
+    width: 90%
+}
+
+.box6:hover {
+    color: rgb(218, 26, 1);
+}
+
+.box7 {
+    width: 87%
+}
+
+.box7:hover {
+    color: rgb(135, 218, 1);
+}
+
+.box8 {
+    /* None */
+}
+
+.box8:hover {
+    color: rgb(1, 131, 218);
 }

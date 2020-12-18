@@ -21,26 +21,32 @@ const Main = () => {
            <p className="box-1">{`<html>`}</p>
            <p className="box0">{`<body>`}</p>
            <p className="box1">{`<div>`}</p>
-           <p className="box2">{`<p>Hello && Welcome!</p>`}</p>
-            <p className="box3">{`<div>`}</p>
-                <p className="box2">{`<p>I'm Andrew</p>`}</p>
-            <p className="box3">{`</div>`}</p>
+                <p className="box6">{`<p>Hello && Welcome!</p>`}</p>
+                <p className="box4">{`<p>I am a Full Stack Developer @ `}<a className="alink" href="https://www.gunbuyer.com" target="_blank">{`GunBuyer.com </p>`}</a></p>
+                <p className="box8">{`<p>My main stack is PostgreSQL, Express, React, Node.js</p>`}</p> 
+            <p className="box1">{`</div>`}</p>
+            <p className="box1">{`<div>`}</p>
+                <p className="box7">{`<p>I'm Andrew</p>`}</p>
+                <p className="box6">{`<p>I also `}<i>really</i>{` enjoy C++</p>`}</p>
+                <p className="box5">{`<p>The links above should get you to where you need to go. Anything else? E-mail me below!</p>`}</p>
+           <a className="alink" href="mailto:theaaamg@gmail.com">{`<p>theaaamg@gmail.com</p>`}</a>
             <p className="box1">{`</div>`}</p>
             <p className="box0">{`</body>`}</p>
-            <p className="box-1">{`</html>`}</p>
+            <p className="box-1">{`</html>`}</p> 
            </div>
 
-           <p>I am a Full Stack Developer @ <a className="alink" href="https://www.gunbuyer.com" target="_blank"> Gun Buyer</a></p>
-           <p>My main stack is PostgreSQL, Express, React, Node.js</p>
-           <p>I also <i>really</i> enjoy C++</p>
+
+           {/* <p>I am a Full Stack Developer @ <a className="alink" href="https://www.gunbuyer.com" target="_blank"> GunBuyer.com</a></p> */}
+           {/* <p>My main stack is PostgreSQL, Express, React, Node.js</p> */}
+           {/* <p>I also <i>really</i> enjoy C++</p>
            <p>The links above should get you to where you need to go. Anything else? E-mail me below!</p>
            <a className="alink" href="mailto:theaaamg@gmail.com">theaaamg@gmail.com</a>
-           <br />
+           <br /> */}
            {/* <p style={{fontSize: "10px"}}>(I don't have much time with work to throw up a beautiful looking portfolio site (yet), however, I will not use a template site like many <b><i>"dev's"</i></b> out there.)</p> */}
         </div>
 
            <div className="toaster">
-           <Row>
+           {/* <Row>
                 <Col xs={6}>
                     <Toast onClose={() => setShow(false)} show={show} delay={3000}>
                     <Toast.Header>
@@ -58,7 +64,7 @@ const Main = () => {
                 <Col xs={6}>
                     <Button style={{backgroundColor: "#011936",         borderColor: "grey"}}onClick={() => setShow(true)}>Hey, you!</Button>
                 </Col>
-            </Row>
+            </Row> */}
             <p style={{fontSize: "10px"}}>(I don't have much time with work to throw up a beautiful looking portfolio site (yet), however, I will not use a template site like many <b><i>"dev's"</i></b> out there.)</p>
         </div>
         </>

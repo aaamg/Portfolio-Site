@@ -32,6 +32,12 @@ const SmallProjectsObject = [
         link: "https://codesandbox.io/s/ghibli-api-project-xvyoy",
     },
     {
+        title: "React Interview Challenge",
+        stack: "React, React Hooks, Axios",
+        description: "From an interview video on YouTube using the https://randomuser.me/api API. The project displays the user, changes to a new user, has a counter for each profile you view automatically, and cleanly displays the JSON data below. No styling was part of the interview, it was just about the data itself. This was a fun challenge.",
+        link: "https://codesandbox.io/s/react-interview-my-own-spin-l9u04?file=/src/App.js",
+    },
+    {
         title: "Look up the Weather App",
         stack: "React, React Hooks, Axios",
         description: "Open Weather API, a work in progress. Search by city, or zip code! ",
@@ -45,7 +51,6 @@ const SmallProjectsObject = [
     }
 
 ]
-
 
 const SmallProjectBox = () => {
     return(
