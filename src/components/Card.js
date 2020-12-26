@@ -20,6 +20,12 @@ const CardBox = styled.div`
     background-color: #011936;
     margin-bottom: 30px;
 `
+
+const IMG = styled.img`
+    height: 300px;
+    width: auto;
+    margin: 0 auto;
+`
 /* 
     Old colors:
      #CD5D67
@@ -30,6 +36,7 @@ const Card = (props) => {
         <CardContain>
         <CardBox className="card">
             <p>{props.title}</p>
+            <IMG src={props.img}></IMG>
             <p>Stack: {props.stack}</p>
             <p>{props.description}</p>
             <a className="links" target="_blank" href={props.link}>{props.link}</a>

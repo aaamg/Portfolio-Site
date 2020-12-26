@@ -67,6 +67,7 @@ const SmallProjectBox = () => {
             return(
             <Card 
                 title={banana.title}
+                img={banana.img}
                 stack={banana.stack}
                 description={banana.description}
                 link={banana.link}

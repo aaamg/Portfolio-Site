@@ -25,6 +25,7 @@ const NavigationBar = () => {
             {/* <Nav.Link href="/">Resume</Nav.Link> */}
             <Nav.Link target="_blank" href="https://github.com/aaamg">Github</Nav.Link>
             {/* <Nav.Link href="/me">About Me</Nav.Link> */}
+            <Nav.Link target="_blank" href="https://aaamg.github.io/Resume/">Resume</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>
