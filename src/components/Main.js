@@ -38,7 +38,7 @@ const Main = () => {
                 <h6>What Am I currently working on?</h6>
                 <ul>
                     <li>- Getting better with algorithms</li>
-                    <li>- Refactoring the database, and datafeeds for gunbuyer.com</li>
+                    <li>- Refactoring the database, and datafeeds for gunbuyer.com</li> //////
                 </ul>
             </div> */}
             
