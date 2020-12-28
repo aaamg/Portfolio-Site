@@ -31,6 +31,7 @@ const InnerCard = styled.div`
     border-radius: 5%;
     background-color: #161d29;
     margin-bottom: 30px;
+    margin-top: 30px;
 `
 
 const IMG = styled.img`

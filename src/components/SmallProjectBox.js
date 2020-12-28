@@ -20,11 +20,18 @@ margin: 30px 0px 10px 0px;
 
 const SmallProjectsObject = [
     {
-        title: "NASA API Photo of the Day",
+        title: "NASA API Photo of the Day", 
         img: "https://i.ibb.co/G39qJH3/logo-og.png",
         stack: "React, Fetch, Axios",
         description: "Displays the NASA photo of the Day, and about the author/image all from their API. Enjoy!",
         link: "https://codesandbox.io/s/fetch-nasa-api-ub9z6",
+    },
+    {
+        title: "JavaScript Bubble Visualization",
+        img: "https://camo.githubusercontent.com/f2c5824c4095c07a76c6fe58b02404b10342eeba599e7958237359be5c3e69ca/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f54676d396a317136324d3045544446686a452f67697068792e676966",
+        stack: "JavaScript, p5.js",
+        description: "Two sphere's that act like similar pole magnets. They have a mind of their own though!",
+        link: "https://github.com/aaamg/JavaScript-bubble-visualization",
     },
     {
         title: "Studio Ghibli API",
