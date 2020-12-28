@@ -1,3 +1,3 @@
-This is my portfolio, it is (hpefully!) up to date.
+This is my portfolio, it is (hopefully!) up to date.
 
 -- Andrew 
