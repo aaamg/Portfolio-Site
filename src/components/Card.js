@@ -17,7 +17,19 @@ const CardBox = styled.div`
     border: 1px solid black;
     width: 50%;
     padding: 20px 15px 20px 15px;
-    background-color: #011936;
+    background-color: #121721;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+`
+
+const InnerCard = styled.div`
+    width: 80%;
+    padding: 20px 15px 20px 15px;
+    border-radius: 5%;
+    background-color: #161d29;
     margin-bottom: 30px;
 `
 
@@ -26,6 +38,11 @@ const IMG = styled.img`
     width: auto;
     margin: 0 auto;
 `
+
+const A = styled.a`
+    color: white;
+    text-decoration: underline;
+    `
 /* 
     Old colors:
      #CD5D67
@@ -37,9 +54,12 @@ const Card = (props) => {
         <CardBox className="card">
             <p>{props.title}</p>
             <IMG src={props.img}></IMG>
-            <p>Stack: {props.stack}</p>
-            <p>{props.description}</p>
-            <a className="links" target="_blank" href={props.link}>{props.link}</a>
+            <br />
+            <InnerCard className="innerCard">
+                <p>Stack: {props.stack}</p>
+                <p>{props.description}</p>
+                <A className="links" target="_blank" href={props.link}>{props.link}</A>
+            </InnerCard>
         </CardBox>
         </CardContain>
         // test

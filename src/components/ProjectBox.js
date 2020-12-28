@@ -9,7 +9,7 @@ const ProjectsObject = [
         title: "Gunbuyer.com",
         img: "https://i.ibb.co/6yZH6Bq/Screen-Shot-2020-12-25-at-6-33-58-PM.png",
         stack: "PHP, Magento 2, JavaScript, Varnish, Apache, MySQL",
-        description: "At Gunbuyer I am a full-stack developer working on both the front end and backend. For the front end I am using JavaScript, phtml, xml, less, and other technologies. The backend is mainly php and using the Magento 2 interface. At Gunbuyer I worked on a small team with one other dev and a project manager. We completely created a new site from scratch, imported over 140,000 unique products via setting up new data feed logic, created a new custom back end, and added new extensions/created custom extensions on a project that the previous team had corprate level resources and a team of over 10. This role is challenging as there are no senior developers to learn from and I had to teach myself everything with the new technologies I encountered such as php, Magento 2, GraphQL, and more.",
+        description: "At Gunbuyer I am a full-stack developer working on both the front end and back end. For the front end I am using JavaScript, phtml, xml, less, and other technologies. The backend is mainly php and using the Magento 2 interface. At Gunbuyer I worked on a small team with one other dev and a project manager. We completely created a new site from scratch, imported over 140,000 unique products via setting up new data feed logic, created a new custom back end, and added new extensions/created custom extensions on a project that the previous team had corprate level resources and a team of over 10. This role is challenging as there are no senior developers to learn from and I had to teach myself everything with the new technologies I encountered such as php, Magento 2, GraphQL, and more.",
         link: "https://demo.floridagunexchange.net"
     },
     {
@@ -37,7 +37,7 @@ const ProjectsObject = [
         title: "Guidr UX/UI Design",
         img: "https://i.ibb.co/BZHbSCR/Screen-Shot-2020-12-25-at-7-12-25-PM.png",
         stack: "HTML | CSS (all by hand, no libraries) | JavaScript",
-        description: "An App that connects those with a passion for off the grid exploration. Plots your course via GPS and can be shared with others. This was one of my first front end designs. I styled the landing page and a team page.",
+        description: "An App that connects those with a passion for off the grid exploration. Plots your course via GPS and can be shared with others. This was one of my first front end designs. I styled the landing page and about (our team) page.",
         link: "https://condescending-davinci-58ec2b.netlify.app/index.html"
     }
 ]
@@ -47,6 +47,7 @@ const ProjectBox = () => {
         <>
         <br/>
         <h6>Projects</h6>
+        <p>These are my current portfolio pieces, I hope you find them interesting!</p>
         <br/>
         <p>{ProjectsObject.map((banana) => {
             return(

@@ -7,7 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #FAEDCB;  */
   /* background-color: #abc5e2;  */
-  background-color: #101820FF;
+  /* background-color: #101820FF; */
+  background-color: #1b2331;
 }
 
 code {
@@ -17,5 +18,6 @@ code {
 
 p {
   /* color: #006B38FF; like this one */
-  color: rgb(0, 221, 114);
+  /* color: rgb(0, 221, 114); */
+  color: white;
 }

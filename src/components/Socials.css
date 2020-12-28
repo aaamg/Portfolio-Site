@@ -1,0 +1,9 @@
+.alink {
+    color: rgb(0, 162, 255);
+}
+
+.alink:hover {
+    color:rgb(0, 162, 255);
+    text-decoration: none;
+    font-style: italic;
+}
