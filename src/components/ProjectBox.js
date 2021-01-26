@@ -8,8 +8,8 @@ const ProjectsObject = [
     {
         title: "Gunbuyer.com",
         img: "https://i.ibb.co/6yZH6Bq/Screen-Shot-2020-12-25-at-6-33-58-PM.png",
-        stack: "PHP, Magento 2, JavaScript, Varnish, Apache, MySQL",
-        description: "Current: At Gunbuyer I am a full-stack developer working on both the front end and back end. For the front end I am using JavaScript, phtml, xml, less, and other technologies. The backend is mainly php interacting with our newly created SQL database. At Gunbuyer I work on a small team with one other dev and a project manager. We completely created a new site from scratch, imported over 140,000 unique products via setting up new data feed logic, created a new custom back end, and added new extensions/created custom extensions on a project that the previous team had corprate level resources and a team of over 10. This role is challenging as there are no senior developers to learn from so I've had to teach myself everything with the new technologies I encountered such as php, Magento 2, GraphQL, and more. I am very thankful to work along side another great developer, and a supportive manager.",
+        stack: "PHP | Magento 2 | JavaScript | Varnish | Apache | MySQL",
+        description: "Current: At Gunbuyer I am a full-stack developer working on both the front end and back end. For the front end I am using JavaScript, phtml, xml/json, less, and other technologies. The backend is mainly php interacting with our newly created SQL database. At Gunbuyer I work on a small team with one other dev and a project manager. We completely created a new site from scratch, imported over 140,000 unique products via setting up new data feed logic, created a new custom back end, and added new extensions/created custom extensions on a project that the previous team had corporatelevel resources and a team of over 10. This role is challenging as there are no senior developers to learn from so I've had to teach myself everything with the new technologies I encountered such as php, Magento 2, GraphQL, and more. I am very thankful to work along side another great developer, and a supportive manager.",
         link: "https://demo.floridagunexchange.net"
     },
     {
@@ -23,14 +23,14 @@ const ProjectsObject = [
         title: "DJ Helper Back End",
         img: "https://i.ibb.co/C0QHDN7/Screen-Shot-2020-12-25-at-7-09-01-PM.png",
         stack: "Node.js | Express | Postgres | AWS | More...",
-        description: "App that helps DJs easily connect with their audiences and collect song requests. Audiences can then upvote those song requests. I built a fully functionioning backend in Node, created a PostgreSQL Amazon RDS database, and deployed the backend on a Linux EC2 instance. Created documentation for ease of use.",
+        description: "App that helps DJs easily connect with their audiences and collect song requests. Audiences can then upvote those song requests. I built a fully functioning backend in Node, created a PostgreSQL Amazon RDS database, and deployed the backend on a Linux EC2 instance. Created documentation for ease of use.",
         link: "https://github.com/Lambda-School-Labs/djhelper-be" 
     },
     {
         title: "DJ Helper Front End",
         img: "https://i.ibb.co/mFtrcqX/Screen-Shot-2020-12-28-at-1-23-26-PM.png",
         stack: "React | React Router | Redux | SASS | Node.js | More...",
-        description: "Helped slect the technologies that would be used to create this project, wireframed the design, maintained trello board & updated the project canvas as goals were met or created. Helped design the UI using React and hooked it up to the back end I created in the card above. We created great documentation that new team members are able to add on to this project without reaching out ot us for help.",
+        description: "Helped slect the technologies that would be used to create this project, wire-framed the design, maintained trello board & updated the project canvas as goals were met or created. Helped design the UI using React and hooked it up to the back end I created in the card above. We created great documentation that new team members are able to add on to this project without reaching out to us for help.",
         link: "https://master.d2jmexjq979p0a.amplifyapp.com" 
     },
     {
