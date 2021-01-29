@@ -21,7 +21,7 @@ margin: 30px 0px 10px 0px;
 const SmallProjectsObject = [
     {
         title: "NASA API Photo of the Day", 
-        img: "https://i.ibb.co/G39qJH3/logo-og.png",
+        img: "https://i.ibb.co/t2dRCtk/Screen-Shot-2021-01-29-at-4-38-12-PM.png",
         stack: "React, Fetch, Axios",
         description: "Displays the NASA photo of the Day, and about the author/image all from their API. Enjoy!",
         link: "https://codesandbox.io/s/fetch-nasa-api-ub9z6",
@@ -35,7 +35,7 @@ const SmallProjectsObject = [
     },
     {
         title: "Studio Ghibli API",
-        img: "https://i.ibb.co/G39qJH3/logo-og.png",
+        img: "https://i.ibb.co/1mV19md/Screen-Shot-2021-01-29-at-4-41-39-PM.png",
         stack: "React, React Hooks, Axios",
         description: "I was teaching someone about React hooks and I made this quick project. I like their films, as does my girlfriend, so it made for a perfect API choice. Took maybe 25 mins on my lunch break to create.",
         link: "https://codesandbox.io/s/ghibli-api-project-xvyoy",

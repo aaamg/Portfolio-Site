@@ -16,7 +16,7 @@ const ProjectsObject = [
         title: "5 Day Weather Forecast.",
         img: "https://i.ibb.co/Tcq6tV4/Screen-Shot-2021-01-29-at-4-14-44-PM.png",
         stack: "React | React Router",
-        description: "A weather app made using the Weather API as a project for a start up. Type in your name & city.",
+        description: "A weather dashboard app made using the Weather API as a project for a start up. A screen greets the user to type in their name & city. After you hit continue, that data is stored in state and pushed to the next page greeting the user with a pleasant weather dashboard.",
         link: "https://csb-vzwjq.netlify.app"
     },
     {
