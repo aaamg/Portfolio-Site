@@ -14,7 +14,7 @@ import './Main.css'
 
 const Main = () => {
     const [show, setShow] = useState(false);
-    const [copied, setCopied] = useState("[hover over me to reveal e-mail]");
+    const [copied, setCopied] = useState("[hover for e-mail]");
     const [help, setHelp] = useState("I am passionate about creating software that makes procedures more efficient for the user, I love focusing on the user experience.");
     return(
         <>

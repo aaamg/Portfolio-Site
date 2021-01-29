@@ -48,13 +48,6 @@ const SmallProjectsObject = [
         link: "https://codesandbox.io/s/react-interview-my-own-spin-l9u04?file=/src/App.js",
     },
     {
-        title: "Look up the Weather App",
-        img: "https://i.ibb.co/G39qJH3/logo-og.png",
-        stack: "React, React Hooks, Axios",
-        description: "(A work in progress.) Open Weather API, a work in progress. Search by city, or zip code! ",
-        link: "https://codesandbox.io/s/weather-app-egm7w?file=/src/App.js",
-    },
-    {
         title: "Stock Data App",
         img: "https://i.ibb.co/G39qJH3/logo-og.png",
         stack: "React, React Hooks, Axios",

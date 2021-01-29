@@ -13,6 +13,13 @@ const ProjectsObject = [
         link: "https://demo.floridagunexchange.net"
     },
     {
+        title: "5 Day Weather Forecast.",
+        img: "https://i.ibb.co/Tcq6tV4/Screen-Shot-2021-01-29-at-4-14-44-PM.png",
+        stack: "React | React Router",
+        description: "A weather app made using the Weather API as a project for a start up. Type in your name & city.",
+        link: "https://csb-vzwjq.netlify.app"
+    },
+    {
         title: "Sauti Africa Market Prices",
         img: "https://i.ibb.co/qFsSHc5/Screen-Shot-2020-12-25-at-7-05-53-PM.png",
         stack: "React | Node.js | Express | Knex | Cypress | MySQL | Auth0 | SASS",
@@ -30,7 +37,7 @@ const ProjectsObject = [
         title: "DJ Helper Front End",
         img: "https://i.ibb.co/mFtrcqX/Screen-Shot-2020-12-28-at-1-23-26-PM.png",
         stack: "React | React Router | Redux | SASS | Node.js | More...",
-        description: "Helped slect the technologies that would be used to create this project, wire-framed the design, maintained trello board & updated the project canvas as goals were met or created. Helped design the UI using React and hooked it up to the back end I created in the card above. We created great documentation that new team members are able to add on to this project without reaching out to us for help.",
+        description: "Helped select the technologies that would be used to create this project. Involved in design of the UI using React and hooked it up to the back end I created in the card above. We created great documentation that new team members are able to add on to this project without reaching out to us for help.",
         link: "https://master.d2jmexjq979p0a.amplifyapp.com" 
     },
     {

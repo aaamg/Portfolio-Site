@@ -11,7 +11,7 @@ import FormControl from 'react-bootstrap/FormControl'
 // Styling
 import './NavigationBar.css'
 
-const NavigationBar = () => {
+const NavigationBar = () => { 
     return(
         <>
         <Navbar className="color-nav navbar-custom"  expand="lg" style={{ backgroundColor: '#121721'}}>
