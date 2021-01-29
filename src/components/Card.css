@@ -34,7 +34,11 @@ img {
     width: auto;
   }
 
-  .card {
+  /* .card {
     width: 350px;
   }
+
+  .innerCard {
+    width: 500px;
+  } */
 }
