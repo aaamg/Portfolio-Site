@@ -29,6 +29,7 @@ const Main = () => {
            <p>The links above should get you to where you need to go. Anything else? e-mail me below!</p>
            <a className="alink" href="mailto:theaaamg@gmail.com" onMouseOver={() => setCopied("theaaamg@gmail.com")}>{copied}</a>
            <br /> 
+           <p><i>(This site is not mobile responsive yet, that will come next when I have more time)</i></p>
            {/* <p style={{fontSize: "10px"}}>(I don't have much time with work to throw up a beautiful looking portfolio site (yet), however, I will not use a template site like many <b><i>"dev's"</i></b> out there.)</p> */}
            {/* <button 
             onClick={() =>  navigator.clipboard.writeText('Copy this text to clipboard')}>
