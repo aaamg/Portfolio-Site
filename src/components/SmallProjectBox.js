@@ -65,7 +65,7 @@ const SmallProjectBox = () => {
             <h6>Side Projects</h6>
             <p>Let me know if any of these are down, and I can have them up and running for you!</p>
             <p>This is my scratch pad, any ideas that bounce off my head that I decide to bring to life in some capacity. These are just small ideas I come up with and little projects I create in just a short amount of time. Anything from a small weather app, to testing a new tech like axios or an API I want to try out! Just more examples of (mainly) React code for you to look at that doesn't clutter my acual portfolio. These projects <i>may</i> or <u><i>may not</i></u> be completed. This is all for fun!</p>
-            <p>(I don't bother styling these due to these for the most part, just a heads up)</p>
+            <p>(I don't bother styling these for the most part, just a heads up)</p>
             </TopBox>
         </TopContain>
 
