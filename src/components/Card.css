@@ -24,21 +24,3 @@
 /* .innerCard:hover {
   background-color: #1c2535;
 } */
-img {
-  width: auto;
-}
-
-@media only screen and (max-width:767px){
-  img {
-    display: none;
-    width: auto;
-  }
-
-  /* .card {
-    width: 350px;
-  }
-
-  .innerCard {
-    width: 500px;
-  } */
-}

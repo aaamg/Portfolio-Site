@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Socials.css'
 
 const Socials = () => {
-    const [copied, setCopied] = useState("[hover for e-mail]");
+    const [copied, setCopied] = useState("[hover over me to reveal e-mail]");
     return(
         <>
             <br />

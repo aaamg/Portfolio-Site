@@ -11,7 +11,7 @@ import FormControl from 'react-bootstrap/FormControl'
 // Styling
 import './NavigationBar.css'
 
-const NavigationBar = () => { 
+const NavigationBar = () => {
     return(
         <>
         <Navbar className="color-nav navbar-custom"  expand="lg" style={{ backgroundColor: '#121721'}}>
@@ -25,7 +25,7 @@ const NavigationBar = () => {
             {/* <Nav.Link href="/">Resume</Nav.Link> */}
             <Nav.Link href="/socials" style={{ color: 'white'}}>Contact</Nav.Link>
             {/* <Nav.Link href="/me">About Me</Nav.Link> */}
-            {/* <Nav.Link target="_blank" href="https://aaamg.github.io/Resume/" style={{ color: 'white'}}>Resume</Nav.Link> */}
+            <Nav.Link target="_blank" href="https://aaamg.github.io/Resume/" style={{ color: 'white'}}>Resume</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>

@@ -21,7 +21,7 @@ margin: 30px 0px 10px 0px;
 const SmallProjectsObject = [
     {
         title: "NASA API Photo of the Day", 
-        img: "https://i.ibb.co/t2dRCtk/Screen-Shot-2021-01-29-at-4-38-12-PM.png",
+        img: "https://i.ibb.co/G39qJH3/logo-og.png",
         stack: "React, Fetch, Axios",
         description: "Displays the NASA photo of the Day, and about the author/image all from their API. Enjoy!",
         link: "https://codesandbox.io/s/fetch-nasa-api-ub9z6",
@@ -35,7 +35,7 @@ const SmallProjectsObject = [
     },
     {
         title: "Studio Ghibli API",
-        img: "https://i.ibb.co/1mV19md/Screen-Shot-2021-01-29-at-4-41-39-PM.png",
+        img: "https://i.ibb.co/G39qJH3/logo-og.png",
         stack: "React, React Hooks, Axios",
         description: "I was teaching someone about React hooks and I made this quick project. I like their films, as does my girlfriend, so it made for a perfect API choice. Took maybe 25 mins on my lunch break to create.",
         link: "https://codesandbox.io/s/ghibli-api-project-xvyoy",
@@ -46,6 +46,13 @@ const SmallProjectsObject = [
         stack: "React, React Hooks, Axios",
         description: "From an interview video on YouTube using the https://randomuser.me/api API. The project displays the user, changes to a new user, has a counter for each profile you view automatically, and cleanly displays the JSON data below. No styling was part of the interview, it was just about the data itself. This was a fun challenge.",
         link: "https://codesandbox.io/s/react-interview-my-own-spin-l9u04?file=/src/App.js",
+    },
+    {
+        title: "Look up the Weather App",
+        img: "https://i.ibb.co/G39qJH3/logo-og.png",
+        stack: "React, React Hooks, Axios",
+        description: "(A work in progress.) Open Weather API, a work in progress. Search by city, or zip code! ",
+        link: "https://codesandbox.io/s/weather-app-egm7w?file=/src/App.js",
     },
     {
         title: "Stock Data App",
@@ -65,7 +72,7 @@ const SmallProjectBox = () => {
             <h6>Side Projects</h6>
             <p>Let me know if any of these are down, and I can have them up and running for you!</p>
             <p>This is my scratch pad, any ideas that bounce off my head that I decide to bring to life in some capacity. These are just small ideas I come up with and little projects I create in just a short amount of time. Anything from a small weather app, to testing a new tech like axios or an API I want to try out! Just more examples of (mainly) React code for you to look at that doesn't clutter my acual portfolio. These projects <i>may</i> or <u><i>may not</i></u> be completed. This is all for fun!</p>
-            <p>(I don't bother styling these for the most part, just a heads up)</p>
+            <p>(I don't bother styling these due to these for the most part, just a heads up)</p>
             </TopBox>
         </TopContain>
 

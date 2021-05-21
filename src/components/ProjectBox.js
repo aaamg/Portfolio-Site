@@ -8,8 +8,16 @@ const ProjectsObject = [
     img: "https://i.ibb.co/6yZH6Bq/Screen-Shot-2020-12-25-at-6-33-58-PM.png",
     stack: "PHP | Magento 2 | JavaScript | Varnish | Apache | MySQL",
     description:
-      "Current: At Gunbuyer I am a full-stack developer working on both the front end and back end. For the front end I am using JavaScript, phtml, xml/json, less, and other technologies. The backend is mainly php interacting with our newly created SQL database. At Gunbuyer I work on a small team with one other dev and a project manager. We completely created a new site from scratch, imported over 140,000 unique products via setting up new data feed logic, created a new custom back end, and added new extensions/created custom extensions on a project that the previous team had corporatelevel resources and a team of over 10. This role is challenging as there are no senior developers to learn from so I've had to teach myself everything with the new technologies I encountered such as php, Magento 2, GraphQL, and more. I am very thankful to work along side another great developer, and a supportive manager.",
+      "Current: At Gunbuyer I am a full-stack developer working on both the front end and back end. For the front end I am using JavaScript, phtml, xml/json, less, and other technologies. The backend is mainly php interacting with our newly created SQL database. At Gunbuyer I work on a small team with one other dev and a project manager.",
     link: "https://www.gunbuyer.com"
+  },
+  {
+    title: "5 Day Weather Forecast.",
+    img: "https://i.ibb.co/Tcq6tV4/Screen-Shot-2021-01-29-at-4-14-44-PM.png",
+    stack: "React | React Router",
+    description:
+      "A weather dashboard app made using the Weather API as a project for a start up. A screen greets the user to type in their name & city. After you hit continue, that data is stored in state and pushed to the next page greeting the user with a pleasant weather dashboard.",
+    link: "https://csb-vzwjq.netlify.app"
   },
   {
     title: "Sauti Africa Market Prices",

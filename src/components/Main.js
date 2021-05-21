@@ -14,24 +14,34 @@ import './Main.css'
 
 const Main = () => {
     const [show, setShow] = useState(false);
-    const [copied, setCopied] = useState("[hover for e-mail]");
+    const [copied, setCopied] = useState("[hover over me to reveal e-mail]");
     const [help, setHelp] = useState("I am passionate about creating software that makes procedures more efficient for the user, I love focusing on the user experience.");
     return(
         <>
         <br />
         <div className="upperBox">
-            <div className="new-box">
-                <h1>Hi! I am Andrew Garcia 👋</h1>
-                <h3>📍 Miami, FL</h3>
-                <p>I'm a software engineer focusing on modern web technologies.</p>
-                <p>Currently working at <a className="alink" href="https://www.gunbuyer.com" target="_blank" style={{ textDecoration: "underline"}}> gunbuyer.com</a>.</p>
-                <p>{help}</p>
-                <p>The links above should get you to where you need to go. Anything else? e-mail me below!</p>
-                <a className="alink" href="mailto:theaaamg@gmail.com" onMouseOver={() => setCopied("theaaamg@gmail.com")}>{copied}</a>
-                <br /> 
-                <p><i>(This site is not mobile responsive yet, that will come next when I have more time)</i></p>
-            </div>
-           
+           <h1>Hi! I am Andrew Garcia</h1>
+           <p>I'm a software engineer focusing on modern web technologies.</p>
+           <p>Currently working at <a className="alink" href="https://www.gunbuyer.com" target="_blank" style={{ textDecoration: "underline"}}> gunbuyer.com</a>.</p>
+           {/* <p>My main stack is PostgreSQL, Express, React, Node.js</p>  */}
+           {/* <p onMouseOver={() => setHelp("Most importantly, I love helping others.")}>{help}</p> */}
+           <p>{help}</p>
+           <p>The links above should get you to where you need to go. Anything else? e-mail me below!</p>
+           <a className="alink" href="mailto:theaaamg@gmail.com" onMouseOver={() => setCopied("theaaamg@gmail.com")}>{copied}</a>
+           <br /> 
+           {/* <p style={{fontSize: "10px"}}>(I don't have much time with work to throw up a beautiful looking portfolio site (yet), however, I will not use a template site like many <b><i>"dev's"</i></b> out there.)</p> */}
+           {/* <button 
+            onClick={() =>  navigator.clipboard.writeText('Copy this text to clipboard')}>
+            Copy
+            </button> */}
+            {/* <div>
+                <h6>What Am I currently working on?</h6>
+                <ul>
+                    <li>- Getting better with algorithms</li>
+                    <li>- Refactoring the database, and datafeeds for gunbuyer.com</li> //////
+                </ul>
+            </div> */}
+            
         </div>
 
            <div className="toaster">
